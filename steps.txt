@@ -4,12 +4,16 @@ node server.js
 
 IN THE ./server/ DIRECTORY:
     Then, install lodash, which creates the node_modules directory, using 
-    node install lodash
+    npm install lodash
 
     Then create a package.json because... just because: 
     npm init
 
     If we were doing this from the main git repo directory, it would pull the repo name automatically. Now, re-add lodash and save it into package.json.
-    node install lodash -S
+    npm install lodash -S
 
+    Add gulp:
+    npm install gulp -D
+
+    Create gulpfile.js
 
