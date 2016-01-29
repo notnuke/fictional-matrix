@@ -1,10 +1,12 @@
 var http = require('http');
-debugger;
+var lodash = require('lodash');
 
 var webServer = function(req,res) {
 
 	res.writeHead(200, {'Content-Type': 'text/plain'});
-	res.end('Hello my sweet!\n');
+	var nickname = lodash.without(['sweet','pumpkin'],'pumpkin');
+	
+	res.end('Hello my ' + nickname + '!\n');
 };
 
 http.createServer(webServer).listen(4112,'127.0.0.1');
