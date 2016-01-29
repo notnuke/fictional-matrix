@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Main  server component of app",
+  "main": "server.js",
+  "dependencies": {
+    "lodash": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notnuke/fictional-matrix.git"
+  },
+  "keywords": [
+    "nodejs",
+    "angularjs",
+    "gulp"
+  ],
+  "author": "Andrew Stollak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notnuke/fictional-matrix/issues"
+  },
+  "homepage": "https://github.com/notnuke/fictional-matrix#readme"
+}
