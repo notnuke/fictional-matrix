@@ -17,3 +17,5 @@ IN THE ./server/ DIRECTORY:
 
     Create gulpfile.js
 
+    Repeat npm install gulp -D, and vi gulpfile.js in new client/
+ 	... no package.json from npm init at the moment.
